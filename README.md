@@ -9,10 +9,7 @@ This repository contains a Python script to interact with OpenAI's GPT API and e
 2. [Key Concepts](#key-concepts)
 3. [Setup](#setup)
 4. [Usage](#usage)
-5. [Parameters](#parameters)
-6. [Results](#results)
-7. [Contributing](#contributing)
-8. [License](#license)
+5. [Results](#results)
 
 ---
 
@@ -57,8 +54,9 @@ To run the script, use the following command:
 
 ```bash
 python explore_llm_parameters.py
-Script Overview
 ```
+## Script Overview
+
 The script performs the following tasks:
 
 Initializes the OpenAI client.\
