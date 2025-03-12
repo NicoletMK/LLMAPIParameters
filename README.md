@@ -35,7 +35,7 @@ To set up and run this project, follow these steps:
 Ensure you have Python 3.9 or later installed. Then, install the required packages:
 
 ```bash
-pip install openai python-dotenv
+pip install openai python-dotenv jupyter
 ```
 
 ### 2. Set Up OpenAI API Key
@@ -48,31 +48,49 @@ OPENAI_API_KEY=your-api-key-here
 ```
 Replace your-api-key-here with your actual OpenAI API key.
 
-## Usage
-
-To run the script, use the following command:
+### 3. Launch Jupyter Notebook
 
 ```bash
-python explore_llm_parameters.py
+jupyter notebook
 ```
-### Script Overview
+Then, open the explore_llm_parameters.ipynb notebook from the Jupyter interface.
+To run the script, use the following command:
 
-The script performs the following tasks:
+## Usage
+The Jupyter Notebook is divided into sections that demonstrate how to:
 
-Initializes the OpenAI client.\
-Defines a set of prompts.\
-Generates responses using different parameter combinations.\
-Prints the results for analysis.
+Initialize the OpenAI client.\
+Define a set of prompts.\
+Generate responses using different parameter combinations.\
+Analyze the results.\
 
 ## Results
 
 The script outputs the generated responses for each parameter combination. Here’s an example of the output:
 ```bash
 --- Default ---
-Quantum computing is a type of computing that uses quantum bits, or qubits, which can exist in multiple states at once. This allows quantum computers to perform many calculations simultaneously, making them much faster than traditional computers for certain tasks.
+Quantum computing is a technology that utilizes the principles of quantum mechanics to perform operations on data and solve problems at a much faster and more efficient rate than traditional computers.
+
 
 --- Low Temperature (0.2) ---
-Quantum computing is a type of computing that uses quantum bits, or qubits, which can exist in multiple states at once. This allows quantum computers to perform many calculations simultaneously, making them much faster than traditional computers for certain tasks.
+Quantum computing is a type of computing that uses quantum bits (qubits) to perform calculations and solve problems much faster than traditional computers.
+
 
 --- High Temperature (1.5) ---
-Quantum computing is like a supercharged version of regular computing. Instead of using regular bits that are either 0 or 1, it uses qubits that can be both 0 and 1 at the same time. This makes quantum computers incredibly powerful for solving complex problems.
+Quantum computing is a form of computing that relies on the principles of quantum physics to perform calculations faster and more efficiently than traditional computers.
+
+
+--- Top-p (0.9) ---
+Quantum computing is the use of quantum-mechanical phenomena, such as superposition and entanglement, to perform computations more efficiently than traditional computers.
+
+
+--- Frequency Penalty (1.0) ---
+Quantum computing is a method of processing information using quantum bits (qubits) that can represent multiple states simultaneously and potentially perform certain calculations faster than traditional computers.
+
+
+--- Presence Penalty (1.0) ---
+Quantum computing is a form of computation that utilizes the principles of quantum mechanics, such as superposition and entanglement, to perform calculations faster and with greater efficiency than classical computers.
+
+
+--- Max Tokens (20) ---
+Quantum computing is a method of computation that uses quantum bits (qubits) and the principles
