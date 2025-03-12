@@ -39,23 +39,26 @@ Ensure you have Python 3.9 or later installed. Then, install the required packag
 
 ```bash
 pip install openai python-dotenv
-
+```
 
 ### 2. Set Up OpenAI API Key
 
 Sign up for an API key at OpenAI.\
 Create a .env file in the root directory of the project and add your API key:
+
 ```bash
 OPENAI_API_KEY=your-api-key-here
+```
 Replace your-api-key-here with your actual OpenAI API key.
-Usage
+
+## Usage
 
 To run the script, use the following command:
 
 ```bash
 python explore_llm_parameters.py
 Script Overview
-
+```
 The script performs the following tasks:
 
 Initializes the OpenAI client.\
