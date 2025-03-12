@@ -62,7 +62,7 @@ The Jupyter Notebook is divided into sections that demonstrate how to:
 Initialize the OpenAI client.\
 Define a set of prompts.\
 Generate responses using different parameter combinations.\
-Analyze the results.\
+Analyze the results.
 
 ## Results
 
