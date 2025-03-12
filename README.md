@@ -55,7 +55,7 @@ To run the script, use the following command:
 ```bash
 python explore_llm_parameters.py
 ```
-## Script Overview
+### Script Overview
 
 The script performs the following tasks:
 
