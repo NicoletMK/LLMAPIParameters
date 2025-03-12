@@ -39,6 +39,7 @@ Ensure you have Python 3.9 or later installed. Then, install the required packag
 
 ```bash
 pip install openai python-dotenv
+```bash
 
 ### 2. Set Up OpenAI API Key
 
